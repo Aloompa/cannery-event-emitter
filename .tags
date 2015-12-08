@@ -1,6 +1,21 @@
+constructor	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/src/index.js	/^    constructor (options) {$/;"	function	line:9
+allOff	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/src/index.js	/^    allOff (event) {$/;"	function	line:46
+off	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/src/index.js	/^    off (event, listener) {$/;"	function	line:54
+on	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/src/index.js	/^    on (event, listener) {$/;"	function	line:72
+module.exports.entry	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/webpack.config.js	/^module.exports = {$/;"	property	line:4
+Welcome to cannery-event-emitter	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^## Welcome to cannery-event-emitter$/;"	function	line:1
+Installation	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^## Installation$/;"	function	line:5
+Usage	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^## Usage$/;"	function	line:11
+API	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^## API$/;"	function	line:45
+allOff(<string> eventName)	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^### allOff(<string> eventName)$/;"	function	line:47
+emit(<string> eventName)	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^### emit(<string> eventName)$/;"	function	line:69
+off(<string> eventName, <function> listener)	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^### off(<string> eventName, <function> listener)$/;"	function	line:87
+on(<string> eventName, <function> listener)	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^### on(<string> eventName, <function> listener)$/;"	function	line:105
+Contributing	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^## Contributing$/;"	function	line:121
+License	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^## License$/;"	function	line:125
 name	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/package.json	/^  "name": "cannery-event-emitter",$/;"	function	line:2
 version	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/package.json	/^  "version": "1.0.0",$/;"	function	line:3
-description	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/package.json	/^  "description": "A starter place for nice modules.",$/;"	function	line:4
+description	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/package.json	/^  "description": "An ES6 compliant port of the Node EventEmitter.",$/;"	function	line:4
 main	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/package.json	/^  "main": "lib",$/;"	function	line:5
 scripts	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/package.json	/^  "scripts": {$/;"	function	line:6
 coverage	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/package.json	/^    "coverage": "node_modules\/.bin\/istanbul cover --hook-run-in-context node_modules\/.bin\/_mocha -- -R spec",$/;"	function	line:7
@@ -31,18 +46,3 @@ lodash.throttle	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/pac
 mocha	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/package.json	/^    "mocha": "^2.3.3",$/;"	function	line:35
 questy	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/package.json	/^    "questy": "^1.1.0",$/;"	function	line:36
 webpack	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/package.json	/^    "webpack": "^1.12.6"$/;"	function	line:37
-constructor	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/src/index.js	/^    constructor (options) {$/;"	function	line:9
-allOff	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/src/index.js	/^    allOff (event) {$/;"	function	line:46
-off	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/src/index.js	/^    off (event, listener) {$/;"	function	line:54
-on	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/src/index.js	/^    on (event, listener) {$/;"	function	line:72
-module.exports.entry	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/webpack.config.js	/^module.exports = {$/;"	property	line:4
-Welcome to cannery-event-emitter	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^## Welcome to cannery-event-emitter$/;"	function	line:1
-Installation	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^## Installation$/;"	function	line:5
-Usage	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^## Usage$/;"	function	line:11
-API	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^## API$/;"	function	line:45
-allOff(<string> eventName)	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^### allOff(<string> eventName)$/;"	function	line:47
-emit(<string> eventName)	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^### emit(<string> eventName)$/;"	function	line:69
-off(<string> eventName, <function> listener)	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^### off(<string> eventName, <function> listener)$/;"	function	line:87
-on(<string> eventName, <function> listener)	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^### on(<string> eventName, <function> listener)$/;"	function	line:105
-Contributing	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^## Contributing$/;"	function	line:121
-License	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^## License$/;"	function	line:125

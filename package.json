@@ -1,7 +1,7 @@
 {
   "name": "cannery-event-emitter",
   "version": "1.0.0",
-  "description": "A starter place for nice modules.",
+  "description": "An ES6 compliant port of the Node EventEmitter.",
   "main": "lib",
   "scripts": {
     "coverage": "node_modules/.bin/istanbul cover --hook-run-in-context node_modules/.bin/_mocha -- -R spec",
