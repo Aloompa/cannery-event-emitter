@@ -118,6 +118,12 @@ dancer.on('dance', () => {
 
 Returns: the event listener function.
 
+## Credits
+
+- [Pete Eigel](https://github.com/peteigel) Original Author
+
+- [Tyson Cadenhead](https://github.com/tysoncadenhead) Documentation
+
 ## Contributing
 
 We encourage you to contribute to cannery-event-emitter by submitting bug reports and pull requests through [Github](http://github.com).
