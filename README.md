@@ -2,6 +2,12 @@
 
 An ES6 compliant port of the Node EventEmitter.
 
+## Installation
+
+```
+npm install cannery-event-emitter
+```
+
 ## Usage
 
 While the EventEmitter can be used by itself like this:

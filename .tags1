@@ -5,11 +5,12 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
 Welcome to cannery-event-emitter	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^## Welcome to cannery-event-emitter$/;"	function	line:1
-Usage	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^## Usage$/;"	function	line:5
-API	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^## API$/;"	function	line:39
-allOff(<string> eventName)	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^### allOff(<string> eventName)$/;"	function	line:41
-emit(<string> eventName)	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^### emit(<string> eventName)$/;"	function	line:63
-off(<string> eventName, <function> listener)	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^### off(<string> eventName, <function> listener)$/;"	function	line:81
-on(<string> eventName, <function> listener)	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^### on(<string> eventName, <function> listener)$/;"	function	line:99
-Contributing	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^## Contributing$/;"	function	line:115
-License	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^## License$/;"	function	line:119
+Installation	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^## Installation$/;"	function	line:5
+Usage	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^## Usage$/;"	function	line:11
+API	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^## API$/;"	function	line:45
+allOff(<string> eventName)	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^### allOff(<string> eventName)$/;"	function	line:47
+emit(<string> eventName)	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^### emit(<string> eventName)$/;"	function	line:69
+off(<string> eventName, <function> listener)	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^### off(<string> eventName, <function> listener)$/;"	function	line:87
+on(<string> eventName, <function> listener)	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^### on(<string> eventName, <function> listener)$/;"	function	line:105
+Contributing	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^## Contributing$/;"	function	line:121
+License	/Users/tysoncadenhead/Sites/opensource/cannery-event-emitter/README.md	/^## License$/;"	function	line:125
