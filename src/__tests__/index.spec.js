@@ -117,4 +117,48 @@ describe('EventEmitter class', () => {
             }, 25);
         });
     });
+
+    describe ('When we emit an event with arguments', () => {
+        it('should pass those arguments to the event listeners', (done) => {
+            let ee = new EventEmitter();
+            ee.on('fourArguments', (a1, a2, a3, a4) => {
+                assert.equal(a1, 6);
+                assert.equal(a2, 'puppy');
+                assert(a3 === undefined);
+                assert.deepEqual(a4, {
+                    thisKey: 'thisValue',
+                    thatKey: 'thatValue'
+                });
+
+                done();
+            });
+
+            ee.emit('fourArguments', 6, 'puppy', undefined, {
+                thisKey: 'thisValue',
+                thatKey: 'thatValue'
+            });
+        });
+    });
+
+    describe('When we bind to \'*\'', () => {
+        it('should emit on another event', (done) => {
+            let ee = new EventEmitter();
+
+            ee.on('*', (event, number) => {
+                assert.equal(event, 'puppies');
+                assert.equal(number, 3);
+                done();
+            });
+
+            ee.emit('puppies', 3);
+        });
+
+        it('should emit when called directly', (done) => {
+            let ee = new EventEmitter();
+
+            ee.on('*', done);
+
+            ee.emit('*');
+        });
+    });
 });

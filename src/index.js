@@ -17,29 +17,21 @@ class EventEmitter {
         }
     }
 
-    [ emit ] (event) {
+    [ emit ] (event, ...args) {
         event = event || this.options.defaultEvent;
 
         if (!event) {
             return;
         }
 
-        let args = [];
-
-        if (arguments.length > 1) {
-            for (let i = 1; i < arguments.length; i++) {
-                args.push(arguments[i]);
-            }
-        }
-
         if (this.listeners[event]) {
             this.listeners[event].forEach((fn) => {
-                if (args) {
-                    fn.apply(null, args);
-                } else {
-                    fn();
-                }
+                fn(...args);
             });
+        }
+
+        if (event !== '*') {
+            this[emit]('*', event, ...args);
         }
     }
 
@@ -78,7 +70,6 @@ class EventEmitter {
 
         return listener;
     }
-
 }
 
 module.exports = EventEmitter;

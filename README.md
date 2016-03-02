@@ -116,6 +116,8 @@ dancer.on('dance', () => {
 });
 ```
 
+Additionally, you can listen to the '\*' event to listen to all events. In this case, the first parameter passed to the listener will be the event name.
+
 Returns: the event listener function.
 
 ## Credits
