@@ -41,6 +41,8 @@ class EventEmitter {
                 }
             });
         }
+
+        this[emit]('*');
     }
 
     allOff (event) {
@@ -78,7 +80,6 @@ class EventEmitter {
 
         return listener;
     }
-
 }
 
 module.exports = EventEmitter;
