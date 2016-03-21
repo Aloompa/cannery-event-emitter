@@ -70,14 +70,6 @@ class EventEmitter {
 
         return listener;
     }
-
-    once (event, listener) {
-        const l = this.on(event, listener);
-
-        this.on(event, () => {
-            this.off(event, l);
-        });
-    }
 }
 
 module.exports = EventEmitter;
