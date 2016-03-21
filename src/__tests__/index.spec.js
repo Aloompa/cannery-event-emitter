@@ -161,4 +161,27 @@ describe('EventEmitter class', () => {
             ee.emit('*');
         });
     });
+
+    describe('When we bind with .once()', () => {
+        let ee = new EventEmitter();
+
+        it('should call our listener', (done) => {
+            ee.once('a', done);
+            ee.emit('a');
+        });
+
+        it('should not call our listener twice', () => {
+            let callCount = 0;
+
+            ee.once('b', () => {
+                callCount++;
+            });
+
+            ee.emit('b');
+            ee.emit('b');
+            ee.emit('b');
+
+            assert.equal(callCount, 1);
+        });
+    });
 });
